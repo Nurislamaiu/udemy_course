@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:udemy_project/ListView.dart';
+import 'package:udemy_project/word_http.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           ),
           actions: [IconButton(onPressed: () {}, icon: Icon(Icons.settings))],
         ),
-        body: MyListView(),
+        body: WordHttp(),
       ),
     );
   }
