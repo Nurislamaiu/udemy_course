@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           ),
           actions: [IconButton(onPressed: () {}, icon: Icon(Icons.settings))],
         ),
-        body: WordHttp(),
+        body: WorkHttpJson(),
       ),
     );
   }
